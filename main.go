@@ -38,7 +38,6 @@ func Start(app *fiber.App, options Options) {
 		fiberLambda = fiberadapter.New(app)
 		lambda.Start(Handler)
 	} else {
-		app := fiber.New()
 		log.Fatal(app.Listen(defaults.Host + ":" + defaults.Port))
 	}
 }
