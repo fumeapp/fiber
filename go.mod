@@ -16,5 +16,3 @@ require (
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	golang.org/x/sys v0.0.0-20221010170243-090e33056c14 // indirect
 )
-
-replace github.com/awslabs/aws-lambda-go-api-proxy => github.com/acidjazz/aws-lambda-go-api-proxy v0.0.0-20221012210758-a8427402ca1d
