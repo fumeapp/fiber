@@ -3,7 +3,7 @@ module github.com/fumeapp/fiber
 go 1.19
 
 require (
-	github.com/acidjazz/aws-lambda-go-api-proxy v0.0.2
+	github.com/acidjazz/aws-lambda-go-api-proxy v0.0.3
 	github.com/aws/aws-lambda-go v1.40.0
 	github.com/gofiber/fiber/v2 v2.44.0
 )
